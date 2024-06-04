@@ -15,6 +15,6 @@ onChat: async function({
     message,
     getLang
 }) {
-    if (event.body && event.body.toLowerCase() == "bot") return message.reply("Ami bot na amr name mira-!!😑");
+    if (event.body && event.body.toLowerCase() == "bot") return message.reply("আ্ঁমি্ঁ mira ব্ঁলে্ঁন্ঁ আ্ঁপ্ঁনা্ঁর্ঁ জ্ঁন্য্ঁ কি্ঁ ক্ঁর্ঁতে্ঁ পা্ঁরি্ঁ!!😑");
 }
 }; 
