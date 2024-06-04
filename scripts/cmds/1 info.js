@@ -6,7 +6,7 @@ module.exports = {
     name: "info",
     aliases: ["inf", "in4"],
     version: "2.0",
-    author: "𝗔𝗵𝗺𝗲𝗱 𝗦𝗼𝗷𝗶𝗯",
+    author: "RAJ",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -35,12 +35,12 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = "𝗦𝗼𝗷𝗶𝗯 𝗕𝗢𝗧..!";
+    const botName = "😘__________𝙳𝙴𝚅𝙸𝙳";
     const botPrefix = "!";
-    const authorName = "𝗔𝗵𝗺𝗲𝗱 𝗦𝗼𝗷𝗶𝗯";
-    const authorFB = "www.facebook.com/ahmed.sojib49/";
-    const authorInsta = "www.instagram.com/ahmed.sojib49";
-    const status = "𝗦𝗶𝗻𝗴𝗹𝗲";
+    const authorName = "𝙼𝙾𝙷𝙰𝙼𝙼𝙰𝙳 𝚁𝙰𝙹";
+    const authorFB = "https://www.facebook.com/profile.php?id=100085082042087";
+    const whatsapp = "01830736888";
+    const status = "𝚂𝙸𝙽𝙶𝙻𝙴";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/info.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
@@ -69,7 +69,7 @@ module.exports = {
 
 ❏𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸↠ ${authorFB}
 
-❏𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺↠ ${authorInsta}
+❏𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺↠ ${whatsapp}
 
 ❏𝗦𝘁𝗮𝘁𝘂𝘀↠ ${status}
 
